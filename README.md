@@ -1,21 +1,28 @@
-# My Awesome Book
+# ELK学习记录 #
 
-|  |  |  |
-| :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
-
-```bash
-vim
-```
+## 准备 ##
+- 系统：CentOS 6.8
+- 内存：8G
+- CPU：4
 
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
 
 
-:EMOJICODE:
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+## 安装Java8 ##
+
+## 安装Elasticsearch ##
+- Elasticsearch的目录结构
+- Elasticsearch的集群配置
+- Elasticsearch的状态查询
+- Elasticsearch的CRUD
+- 映射与模板定制
+
+
+## 安装Kibana ##
+## 安装Logstash ##
+- Logstash的目录结构
+- 配置Logstash的input, filter, output
+- Grok正则捕获
+- Date插件
+
+## 安装Filebeat ##
