@@ -6,8 +6,16 @@
 |  |  |  |
 
 ```bash
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+vim
 ```
 
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
+
+:EMOJICODE:
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
